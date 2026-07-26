@@ -1,0 +1,28 @@
+{
+  "name": "@hudson-newey/2signals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "vite ./dev/",
+    "build": "vite build",
+    "test": "vitest",
+    "format": "prettier --write",
+    "lint": "oxlint"
+  },
+  "keywords": [
+    "signals"
+  ],
+  "author": "hudson-newey",
+  "license": "MIT",
+  "packageManager": "pnpm@10.33.0",
+  "devDependencies": {
+    "@total-typescript/tsconfig": "^1.0.4",
+    "oxlint": "^1.75.0",
+    "prettier": "^3.9.6",
+    "typescript": "^7.0.2",
+    "vite": "^8.1.5",
+    "vite-plugin-dts": "^5.0.3",
+    "vitest": "^4.1.10"
+  }
+}
